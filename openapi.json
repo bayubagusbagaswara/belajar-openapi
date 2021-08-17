@@ -1,0 +1,25 @@
+{
+  "openapi":"3.0.2",
+  "info": {
+    "title":"TodoList RESTful API",
+    "version":"1.0",
+    "description": "Dokumentasi OpenAPI for TodoList RESTful API",
+    "termsOfService": "https://www.bayubagusbagaswara",
+    "contact": {
+        "name": "Bayu Bagus Bagaswara",
+        "email": "bayubagusbagaswara@gmail.com",
+        "url": "https://www.bayubagusbagaswara.com"
+    },
+    "license": {
+        "name": "APACHE 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
+  "servers": [
+    {
+        "url":"https://api.server.test/v1"
+    }
+  ],
+  "paths": {
+  }
+}
