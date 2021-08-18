@@ -91,3 +91,8 @@
 ## Object Schema
 
 - Spesifikasi di JSON Schema juga mendukung pembuatan schema berupa objek, yaitu data yang memiliki attribute lebih dari satu
+
+## Array Schema
+
+- Selain tipe data object, Schema juga mendukung tipe data array
+- Saat membuat tipe data array, kita juga bisa menentukan tipe data items yang terdapat di array, bisa tipe data sederhana, bisa tipe data kompleks seperti object atau array lagi

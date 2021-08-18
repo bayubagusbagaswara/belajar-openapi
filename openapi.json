@@ -88,6 +88,15 @@
                     "format": "int32",
                     "default": 1,
                     "required": true
+                  },
+                  "tags" : {
+                    "type": "array",
+                    "required": false,
+                    "minItems": 1,
+                    "items" : {
+                      "type": "string",
+                      "minLength": 1
+                    }
                   }
                 }
               }
@@ -132,6 +141,15 @@
                     "format": "int32",
                     "default": 1,
                     "required": true
+                  },
+                  "tags" : {
+                    "type": "array",
+                    "required": false,
+                    "minItems": 1,
+                    "items" : {
+                      "type": "string",
+                      "minLength": 1
+                    }
                   }
                 }
               }
