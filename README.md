@@ -101,3 +101,9 @@
 
 - OpenAPI mendukung example data
 - Example data merupakan data contoh yang bisa kita tambahkan baik itu di Parameter, Request Body dan Response Body
+
+## Response Body
+
+- Selain Request Body, kita juga mendokumentasikan Response Body di OpenAPI
+- Dengan demikian, kita bisa memberitahu format Response Body yang kita kembalikan pada RESTful API yang kita buat
+- Yang menarik di OpenAPI, kita bisa memberitahu format response body sesuai dengan response statusnya, misal kita bisa tentukan untuk response status 200, 400, 500, dan lain-lain
