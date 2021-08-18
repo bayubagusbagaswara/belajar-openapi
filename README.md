@@ -82,3 +82,8 @@
 - Schema mendukung JSON Schema Validation
 - Hal ini membuat kita bisa memberitahu validasi yang diperlukan ketika pengguna membaca OpenAPI kita
 - Dengan kita tambahkan Schema Validation, pengguna RESTful API kita bisa tahu validation yang kita buat tanpa harus kita buat dokumentasi secara terpisah
+
+## Request Body
+
+- Dengan ini, kita memberitahu tentang schema request body yang harus dikirim ketika menggunakan RESTful API kita
+- Request Body mendukung schema, sehingga kita memberitahu bentuk schema format data, bahkan validasi yang diperlukan
