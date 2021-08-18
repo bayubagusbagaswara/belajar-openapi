@@ -66,3 +66,19 @@
 - Operation bisa memiliki parameter lebih dari satu
 - OpenAPI mendukung beberapa jenis parameter, yaitu Query Parameter, Path Variable, Header, dan Cookie
 - Kita bisa menambahkan parameter pada Operation, sehingga pengguna bisa tahu bahwa ada parameter yang perlu dikirim ketika memanggil Operation tersebut
+
+## Schema
+
+- Saat kita membuat parameter, kita mungkin ingin memberitahu tentang tipe data untuk parameter tersebut
+- Parameter memiliki attribute bernama schema, dimana schema sebenarnya sangat kompleks
+
+### JSON Schema Specification
+
+- Schema menggunakan JSON Schema untuk mendefinisikan struktur datanya
+- JSON Schema bisa berisikan tipe data sederhana, seperti number, string, boolean, dan lain-lain. Bahkan tipe data kompleks, seperti Object dan Array
+
+### JSON Schema Validation
+
+- Schema mendukung JSON Schema Validation
+- Hal ini membuat kita bisa memberitahu validasi yang diperlukan ketika pengguna membaca OpenAPI kita
+- Dengan kita tambahkan Schema Validation, pengguna RESTful API kita bisa tahu validation yang kita buat tanpa harus kita buat dokumentasi secara terpisah
