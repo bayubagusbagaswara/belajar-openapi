@@ -46,3 +46,9 @@
 
 - Merupakan bagian dalam OpenAPI jika kita ingin menambahkan link tambahan dalam OpenAPI
 - Bisa menuju link documentation lain, atau mungkin link menuju website
+
+## Path
+
+- Merupakan representasi endpoint API di OpenAPI
+- Pada Path, kita tidak perlu menuliskan seluruh URL, cukup URL di belakang setelah lokasi server
+- Path Operation mengikuti HTTP Method (GET, POST, PUT, DELETE, PATCH)
