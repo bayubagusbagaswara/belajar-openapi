@@ -112,3 +112,9 @@
 
 - Merupakan fitur tambahan, dimana kita bisa groupng beberapa Path menjadi satu Tag yang sama
 - Misal ketika kita membuat OpenAPI untuk RESTful API Toko Online, kita grouping dengan Tag Product, Customer, Payment, Order, dan lain-lain
+
+## Component
+
+- Merupakan bagian dalam OpenAPI untuk menyimpan object yang bisa digunakan ulang
+- Misal, saat nanti kita membuat spek untuk Request Body atau Response Body, dibanding kita buat satu persatu, jika ada beberapa yang sama, lebih baik kita buat dalam Component, sehingga bisa digunakan di beberapa Endpoint API
+- Ada banyak jenis component, ada schema, request, response, parameter, header, dan lain-lain
