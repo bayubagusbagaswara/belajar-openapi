@@ -41,3 +41,8 @@
 - Sudah pasti terdapat server RESTful API yang akan dibuat
 - Kita bsa memberitahu server yang tersedia di OpenAPI
 - Misal, terdapat server development, staging, production, dan lain-lain
+
+## External Documentation
+
+- Merupakan bagian dalam OpenAPI jika kita ingin menambahkan link tambahan dalam OpenAPI
+- Bisa menuju link documentation lain, atau mungkin link menuju website
