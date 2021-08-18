@@ -52,3 +52,10 @@
 - Merupakan representasi endpoint API di OpenAPI
 - Pada Path, kita tidak perlu menuliskan seluruh URL, cukup URL di belakang setelah lokasi server
 - Path Operation mengikuti HTTP Method (GET, POST, PUT, DELETE, PATCH)
+
+## Operation
+
+- Setiap Path yang kita buat di OpenAPI, bisa memiliki lebih dari satu Operation
+- Hal ini dikarenakan di dalam HTTP satu URL bsia memiliki beberapa HTTP Method
+- Misal URL untuk mengambil semua data dan membuat data baru, mungkin url nya sama, yang membedakan adalah HTTP Method nya, GET untuk mengambil data, POST untuk membuat data
+- Inti dari API Documentation adalah dokumentasi operation yang terdapat pada RESTful API yang kita buat
