@@ -118,3 +118,8 @@
 - Merupakan bagian dalam OpenAPI untuk menyimpan object yang bisa digunakan ulang
 - Misal, saat nanti kita membuat spek untuk Request Body atau Response Body, dibanding kita buat satu persatu, jika ada beberapa yang sama, lebih baik kita buat dalam Component, sehingga bisa digunakan di beberapa Endpoint API
 - Ada banyak jenis component, ada schema, request, response, parameter, header, dan lain-lain
+
+## Reference
+
+- OpenAPI memiliki fitur Reference, dimana dengan reference kita bisa membuat reference ke data component yang sudah kita buat
+- Hal ini lebih baik, daripada kita buat component yang sama berkali-kali pada beberapa path, misal jika terdapat response body yang sama, lebih baik kita gunakan reference, jika memiliki parameter yang sama, lebih baik kita gunakan reference
