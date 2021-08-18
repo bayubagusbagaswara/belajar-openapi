@@ -96,3 +96,8 @@
 
 - Selain tipe data object, Schema juga mendukung tipe data array
 - Saat membuat tipe data array, kita juga bisa menentukan tipe data items yang terdapat di array, bisa tipe data sederhana, bisa tipe data kompleks seperti object atau array lagi
+
+## Example
+
+- OpenAPI mendukung example data
+- Example data merupakan data contoh yang bisa kita tambahkan baik itu di Parameter, Request Body dan Response Body
