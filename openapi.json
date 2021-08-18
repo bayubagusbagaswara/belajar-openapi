@@ -17,7 +17,19 @@
   },
   "servers": [
     {
-        "url":"https://api.server.test/v1"
+      "description": "TodoList RESTful API Server",  
+      "url":"https://{environment}.bayubagusbagaswara.com/api/v1",
+      "variables": {
+        "environment" : {
+          "description": "Server Environment",
+          "default": "dev",
+          "enum": [
+            "dev",
+            "qa",
+            "prod"
+          ]
+        }
+      }
     }
   ],
   "paths": {

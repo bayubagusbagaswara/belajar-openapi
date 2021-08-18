@@ -35,3 +35,9 @@
 
 - Info merupakan bagian dari informasi metadata tentang API yang kita buat
 - Bisa memasukkan author, lisensi, dan lain-lain
+
+## Server
+
+- Sudah pasti terdapat server RESTful API yang akan dibuat
+- Kita bsa memberitahu server yang tersedia di OpenAPI
+- Misal, terdapat server development, staging, production, dan lain-lain
