@@ -87,3 +87,7 @@
 
 - Dengan ini, kita memberitahu tentang schema request body yang harus dikirim ketika menggunakan RESTful API kita
 - Request Body mendukung schema, sehingga kita memberitahu bentuk schema format data, bahkan validasi yang diperlukan
+
+## Object Schema
+
+- Spesifikasi di JSON Schema juga mendukung pembuatan schema berupa objek, yaitu data yang memiliki attribute lebih dari satu
